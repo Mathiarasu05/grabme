@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SIGN IN</title>
+</head>
+<body bgcolor="skyblue">
+	<div class="acc">
+	<table >
+		<tr>
+			<center>
+	        <label><input type="radio" name="rao"><B>CREAT ACCOUNT.   New to GRAP ME</B></label><br>
+	        <label><input type="radio"><b>SIGN IN . Already a customer?</b></label><br>
+	        <input class="em"  type="email" placeholder="Enter email"><br><br>
+	        <center>OR</center><br>
+	        <input class="nm" type="number" placeholder="Enter mobile number"><br><br>
+	        <input class="fl" type="text" placeholder="FIRST AND LAST NAME"><br><br>
+	        <input id="pass" type="password"  placeholder="password"><br><br>
+	        <button><a href="OnlineShop.html"> SUBMIT</button>
+            </center>
+        </tr>
+    </table>
+    </div>
+    <style>
+    	body{
+    		background:linear-gradient(to right, #00AAFF,#00FF6C);
+    	}
+    	.acc{
+    		padding: 250px;
+    		margin: 10px;	
+    	}
+    	.em{
+    		border: none;
+    		border-radius: 20px;
+    		padding: 10px;
+    		padding-right: 70px;
+    	}
+    	.nm{
+    		border: none;
+    		border-radius: 20px;
+    		padding: 10px;
+    		padding-right: 70px;
+    		padding-top: -20px;
+    	}
+    	.fl{
+    		border: none;
+    		border-radius: 20px;
+    		padding: 10px;
+    		padding-right: 70px;
+    	}
+    	#pass{
+    		border: none;
+    		border-radius: 20px;
+    		padding: 10px;
+    		padding-right: 70px;
+    	}
+    	button{
+    		border: none;
+    		border-radius: 2px;
+    		padding: 10px;
+    		background-color: lightpink;
+    		color: white;
+    		cursor: pointer;
+    	}
+    	button:hover{
+    		background-color: whitesmoke;
+    	}
+    </style>
+    <script>
+    	function saveData(){
+            localStorage.setItem("data",listContainer.innerHTML);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+body{
+	/**/
+	background-color:hsl(0,0%,96%);
+}
+
+
+.Shop{
+	color: whitesmoke;
+	font-style: italic;
+}
+.but{
+	border: none;
+	padding: 10px;
+	background-color: violet;
+	color: black;
+	border-radius: 10px;
+	cursor: pointer;
+	font-weight: bold;
+	text-decoration: none;
+	transition: 0.8s;
+}
+.but:hover{
+	background-color: white;
+}
+.search{
+	padding: 10px;
+	width: 400px;
+	border-radius: 25px;
+	border: 1px solid violet;
+	font-style: italic;
+}
+.mob{
+	border-radius: 10px;
+	padding: 8px;
+	border: none;
+	transition: 0.8s;
+	font-weight: bold;
+}
+.mob:hover{
+	background-color:violet;
+	opacity: 0.7;
+}
+.vig{
+	padding: 10px;
+	border: 1px solid white;
+	background-color: white;
+	cursor: pointer;
+
+}
+
+.tab{
+	border-radius: 10px;
+
+}
+.logo{
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+	cursor: pointer;
+	display: grid;
+	border-radius: 50%;
+	margin-left: 30px;
+}
+.bar{
+	background-color:violet;
+	border: none;
+	border-radius: 10px;
+	color: black;
+	padding: 10px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 15px;
+	transition: 0.9s;
+}
+.bar:hover{
+     background-color: white;
+}
+.bar:active{
+	opacity: 0.1s;
+}
+.latop{
+	padding: 8px;
+	border-radius: 10px;
+	border: none;
+	transition: 0.8s;
+	font-weight: bold;
+}
+.latop:hover{
+	background-color:violet;
+}
+.sho{
+	padding: 8px;
+	border-radius: 10px;
+	border: none;
+	transition: 0.8s;
+	font-weight: bold;
+}
+.sho:hover{
+	background-color:violet;
+}
+.sma{
+	padding: 8px;
+	border-radius: 10px;
+	border: none;
+	transition: 0.8s;
+	font-weight: bold;
+}
+.sma:hover{
+	background-color:violet;
+}
+.oth{
+	padding: 8px;
+	border-radius: 10px;
+	border: none;
+	transition: 0.8s;
+	font-weight: bold;
+}
+.oth:hover{
+	background-color:violet;
+}
+button{
+	background-color: white;
+	border: none;
+	padding: 10px;
+	border-radius: 1px;
+	cursor: pointer;
+	font-weight: bold;
+}
+button:hover{
+	background-color: gray;
+}
+.buy{
+	background-color: deepskyblue;
+	cursor: pointer;
+}
+.buy:hover{
+	background-color: lawngreen;
+}
+.hig{
+	background-color:white;
+	cursor: pointer;
+}
+.sig{
+	background-color: white;
+	cursor: pointer;
+}
+.wig{
+	background-color: white;
+	cursor: pointer;
+}
+.oig{
+	background-color: white;
+	cursor: pointer;
+	border-radius: 25px;
+}
+.butas{
+	background-color: whitesmoke;
+	cursor: pointer;
+}
+.butas:hover{
+	background-color: rgb(200, 0, 0, 1.0);
+}
+.logos-slide{
+	
+	white-space: nowrap;
+    animation: 11s slide infinite linear;
+}
+@keyframes slide {
+	from{
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(-100%);
+	}
+}
